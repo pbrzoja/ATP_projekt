@@ -62,8 +62,8 @@ stvorili novu datoteku kako bi imali što čitati. Također, parametar
 `"r"`{.python} zapravo ne treba navoditi jer se podrazumijeva, ali
 njegovim navođenjem se mod rada jasnije vidi.
 
-``` pythonp
-[\[listing:tekst_citanje\]](#listing:tekst_citanje){reference-type="ref" reference="listing:tekst_citanje"}
+``` python
+# Ovo je neki naslov
 This parrot is no more!
 He has ceased to be!
 'E's expired and gone to meet 'is maker!
