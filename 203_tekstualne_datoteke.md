@@ -62,23 +62,28 @@ stvorili novu datoteku kako bi imali što čitati. Također, parametar
 `"r"`{.python} zapravo ne treba navoditi jer se podrazumijeva, ali
 njegovim navođenjem se mod rada jasnije vidi.
 
-::: pythonp
-[\[listing:tekst_citanje\]](#listing:tekst_citanje){reference-type="ref"
-reference="listing:tekst_citanje"} This parrot is no more! He has ceased
-to be! 'E's expired and gone to meet 'is maker! 'Is metabolic processes
-are now 'istory! 'E's off the twig! \..... THIS IS AN EX-PARROT!!
-:::
+``` pythonp
+[\[listing:tekst_citanje\]](#listing:tekst_citanje){reference-type="ref" reference="listing:tekst_citanje"}
+This parrot is no more!
+He has ceased to be!
+'E's expired and gone to meet 'is maker!
+'Is metabolic processes are now 'istory!
+'E's off the twig!
+\..... THIS IS AN EX-PARROT!!
+```
 
 Pogledajmo kako se petlja `for`{.python} može koristiti u kontekstu
 čitanja teksta iz datoteke:
 
-::: pythonp
-[\[listing:tekst_prebiranje\]](#listing:tekst_prebiranje){reference-type="ref"
-reference="listing:tekst_prebiranje"} 1 This parrot is no more! 2 He has
-ceased to be! 3 'E's expired and gone to meet 'is maker! 4 'Is metabolic
-processes are now 'istory! 5 'E's off the twig! 6 \..... THIS IS AN
-EX-PARROT!!
-:::
+``` pythonp
+[\[listing:tekst_prebiranje\]](#listing:tekst_prebiranje){reference-type="ref" reference="listing:tekst_prebiranje"}
+1 This parrot is no more!
+2 He has ceased to be!
+3 'E's expired and gone to meet 'is maker!
+4 'Is metabolic processes are now 'istory!
+5 'E's off the twig!
+6 \..... THIS IS AN EX-PARROT!!
+```
 
 Drugim riječima, po otvorenoj datoteci se može iterirati po recima
 teksta. Na ovaj način možemo raditi s datotekama bilo koje veličine pa
